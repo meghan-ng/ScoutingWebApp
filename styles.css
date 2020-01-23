@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100vh;
+    background: linear-gradient(rgba(29, 209, 161,0.7), rgba(26, 188, 156,0.5)), url('https://i.imgur.com/uUYiLthh.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#logo {
+    width: 8%;
+}
+#movelist {
+    position: relative;
+    right: 36% !important;
+}
+#thetitle {
+    color: White;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 33%;
+    font-weight: 600;
+}
+.thebuttons {
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 60%;
+}
+.button {
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    display:inline-block;
+    overflow:hidden;
+    -webkit-transition:all 0.1s ease-in-out;
+    -ms-transition:all 0.1s ease-in-out;
+    -moz-transition:all 0.1s ease-in-out;
+    -o-transition:all 0.1s ease-in-out;
+    -apple-transition:all 0.1s ease-in-out;
+    transition:all 0.1s ease-in-out;  
+  }
+  .button h5 {
+    margin:0;
+    padding:0;
+    display:inline-block;
+  }
+  
+.thebuttons{
+    font-family:'Gotham',sans-serif;
+    position: absolute;
+    top: 60%;
+    left: 53%;
+    vertical-align: middle;
+}
+.thebuttons_two {
+    font-family:'Gotham',sans-serif;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    vertical-align: middle;
+}
+  .button {
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    display:inline-block;
+    overflow:hidden;
+    -webkit-transition:all 0.1s ease-in-out;
+    -ms-transition:all 0.1s ease-in-out;
+    -moz-transition:all 0.1s ease-in-out;
+    -o-transition:all 0.1s ease-in-out;
+    -apple-transition:all 0.1s ease-in-out;
+    transition:all 0.1s ease-in-out;  
+  }
+  
+  .button__icon--hover span {
+      display:block;
+      color:#fff;
+  }
+  .button__icon--introduce span {
+    position:absolute;
+    top:-50px;
+    color:#fff;
+    margin-left:-15px; /* Takes care of slight centering issue */
+  }
+  
+  .button__icon--introduce:hover span {
+    top:0px;
+  }
+  
+  .button h5 {
+    margin:0;
+    padding:0;
+    display:inline-block;
+  }
+  
+  .button span {
+    height:50px;
+    padding-right:10px;
+    margin-right:10px;
+    margin-top:-50px;
+    position:relative;
+     -webkit-transition:all 0.1s ease-in-out;
+      -ms-transition:all 0.1s ease-in-out;
+      -moz-transition:all 0.1s ease-in-out;
+      -o-transition:all 0.1s ease-in-out;
+      -apple-transition:all 0.1s ease-in-out;
+      transition:all 0.1s ease-in-out;
+  }
+  
+  .button__orange {
+    border:3px solid #222f3e;
+    color:white;
+  }
+  
+  .button__orange:hover {
+    background-color:#222f3e;
+    color:#fff;
+  }
+  
+  .button__icon--hover:hover span {
+    margin-top:0;
+  }
+  
+  
+  .button__small {
+    width:250px;
+    margin:auto;
+  }
